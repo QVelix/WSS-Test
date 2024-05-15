@@ -1,5 +1,6 @@
 ﻿namespace WSSTest.Models;
 
+//Это модель отдела
 public class Unit
 {
 	public long Id { get; set; }
