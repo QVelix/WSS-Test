@@ -16,6 +16,7 @@ public class CompanyController : ControllerBase
 	}
 
 	//TODO: На весь контроллер! Все методы должны возвращать VIEW
+	//TODO: Все методы должны быть асинхронны т.е. напримере ниже: public Task<IActionResult> Get(){return View(context.Company.ToList())}
 	[HttpGet]
 	public IEnumerable<Company> Get()
 	{
